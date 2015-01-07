@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TIY - Flashcards</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="choosecards">
+        <h3>Choose a Flashcard Set:</h3>
+        <select id="cardsets">
+          <option value="" selected disabled style="display:none;">--</option>
+          <option value="zedshawCLI.json">Terminal Commands - Zed Shaw</option>
+          <option value="osxshortcuts.json">OSX Keyboard Shortcuts</option>
+        </select>
+      </div>
+      <div id="flashcard">
+        <div id="question" class="shown">
+          <p>
+            Welcome to TIY-Flashcard!<br>
+            Please choose a card set from the list above.
+          </p>
+        </div>
+        <div id="answer" class="hidden">
+          <p>This is a sample answer. Good job!</p>
+        </div>
+      </div>
+      <div id="nav">
+        <div id="prev">
+          <div class="arrow arrow-left"></div>
+        </div>
+        <div id="check">
+          <div class="arrow arrow-flip"></div>
+        </div>
+        <div id="next">
+          <div class="arrow arrow-right"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

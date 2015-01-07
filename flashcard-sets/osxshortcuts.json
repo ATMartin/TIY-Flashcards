@@ -1,0 +1,6 @@
+{
+	"CTRL + A" : "Go to the beginning of the line you are currently typing on.",
+	"CTRL + E" : "Go to the end of the line you are currently typing on.",
+	"CTRL + U" : "Clear the line before the cursor.",
+	"CTRL + K" : "Clear the line after the cursor."
+}
